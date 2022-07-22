@@ -1,0 +1,60 @@
+@import "all.css";
+@import "fontawesome.css";
+@import "reset.css";
+html{
+    font-size:10px;
+}
+.flexbox{
+    display:flex;
+  flex-wrap:wrap;
+  justify-content:space-between; 
+}
+.container{
+    margin:0 auto;
+    max-width:1440px;
+    padding:0 2rem;
+}
+#fourth-section .stars-regular{
+    padding:20px;
+    justify-content:flex-start;
+    /* position:relative; */
+}
+#fourth-section .stars-regular a{
+    color:#c6c6c6;
+    font-size:20px;
+}
+#fourth-section .stars-solid{
+    position:absolute;
+    padding:20px;
+}
+#fourth-section .stars-solid a{
+    color: yellow;
+    opacity:0;
+    font-size:20px;
+}
+#fourth-section .stars-solid a:hover {
+    opacity:1;
+  }
+#fourth-section .stars-solid a.s1:hover ~ a {
+    color: yellow;
+    opacity: 1;
+  }
+#fourth-section .stars-solid a.s2:hover ~ a {
+    color: yellow;
+    opacity:1;
+  }
+#fourth-section .stars-solid a.s3:hover ~ a {
+    color: yellow;
+    opacity:1;
+  }
+#fourth-section .stars-solid a.s4:hover ~ a {
+    color: yellow;
+    opacity:1;
+  }
+#fourth-section .stars-solid a.s5:hover ~ a {
+    color: yellow;
+    opacity:1;
+  }
+#fourth-section .stars-regular a , #fourth-section .stars-solid a{
+    margin-right:5px;
+}
